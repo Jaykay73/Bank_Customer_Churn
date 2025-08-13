@@ -8,7 +8,8 @@ The app takes customer details as input and provides a prediction with an intuit
 ## Features
 
 * Interactive **Streamlit** UI for customer data entry
-* Pre-trained **Random Forest** model
+* Trained various models like **Random Forest**, **Logistic Regression**, **SVM Classifier**, **Gradient Boost** amongst others.
+* Performed hyperparameter tuning and cross validation to select best params for best performing model
 * **One-hot encoding** for categorical data
 * **Feature scaling** using `StandardScaler`
 * Easy deployment to **Streamlit Cloud**, Heroku, or Render
