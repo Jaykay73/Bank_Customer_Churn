@@ -27,7 +27,7 @@ bank_customer_churn/
 ├── models/
 │   ├── Churn_model.pkl          # Trained model
 │   ├── scaler.pkl               # Scaler for numeric features
-│   └── expected_columns.pkl     # Column order for input alignment
+│   └── feature_names.pkl     # Column order for input alignment
 │
 ├── data/
 │   ├── raw/                     # Raw dataset
