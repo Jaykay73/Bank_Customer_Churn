@@ -83,13 +83,12 @@ Then open your browser at: **[http://localhost:8501](http://localhost:8501)**
 1. Push your project to GitHub.
 2. Go to [Streamlit Cloud](https://share.streamlit.io/).
 3. Connect your GitHub repo and deploy.
-
 ---
 
 ## Model Training
-
 Model and scaler are saved as `.pkl` files in the `models/` directory.
 The chosen model after hyperparameter tuning and cross validation was a Gradient Booster Classifier
+
 ---
 
 ## License
