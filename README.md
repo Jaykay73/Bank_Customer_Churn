@@ -89,18 +89,7 @@ Then open your browser at: **[http://localhost:8501](http://localhost:8501)**
 ## Model Training
 
 Model and scaler are saved as `.pkl` files in the `models/` directory.
-You can retrain the model by running:
-
-```bash
-python train.py
-```
-
-This regenerates:
-
-* `Churn_model.pkl`
-* `scaler.pkl`
-* `expected_columns.pkl`
-
+The chosen model after hyperparameter tuning and cross validation was a Gradient Booster Classifier
 ---
 
 ## License
