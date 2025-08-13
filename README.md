@@ -19,7 +19,7 @@ The app takes customer details as input and provides a prediction with an intuit
 ## Project Structure
 
 ```
-bank_churn_prediction/
+bank_customer_churn/
 │
 ├── app.py                       # Streamlit app entry point
 │
