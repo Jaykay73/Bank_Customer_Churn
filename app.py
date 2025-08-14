@@ -14,8 +14,8 @@ st.set_page_config(
 )
 
 # Load the trained model and scaler
-model = joblib.load("Churn_model.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("models/Churn_model.pkl")
+scaler = joblib.load("models/scaler.pkl")
 
 
 # Add a stylish header
@@ -130,3 +130,4 @@ if submitted:
     else:
         st.markdown("<h3 style='color:#2E8B57;'>✅ Customer Will Stay</h3>", unsafe_allow_html=True)
         st.markdown("<div style='text-align:center;'><img src='https://cdn-icons-png.flaticon.com/512/190/190411.png' width='80'></div>", unsafe_allow_html=True)
+
